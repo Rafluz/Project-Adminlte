@@ -89,7 +89,7 @@
                                                     Alexander Pierce
                                                 </span> <span class="direct-chat-timestamp float-end">
                                                     23 Jan 2:00 pm
-                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../../assets/adminlte/assets/img/user1-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
+                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../assets/adminlte/assets/img/user1-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
                                                 Is this template really for free? That's unbelievable!
                                             </div> <!-- /.direct-chat-text -->
@@ -99,7 +99,7 @@
                                                     Sarah Bullock
                                                 </span> <span class="direct-chat-timestamp float-start">
                                                     23 Jan 2:05 pm
-                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../../assets/adminlte/assets/img/user3-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
+                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../assets/adminlte/assets/img/user3-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
                                                 You better believe it!
                                             </div> <!-- /.direct-chat-text -->
@@ -109,7 +109,7 @@
                                                     Alexander Pierce
                                                 </span> <span class="direct-chat-timestamp float-end">
                                                     23 Jan 5:37 pm
-                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../../assets/adminlte/assets/img/user1-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
+                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../assets/adminlte/assets/img/user1-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
                                                 Working with AdminLTE on a great new app! Wanna join?
                                             </div> <!-- /.direct-chat-text -->
@@ -119,13 +119,13 @@
                                                     Sarah Bullock
                                                 </span> <span class="direct-chat-timestamp float-start">
                                                     23 Jan 6:10 pm
-                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../../assets/adminlte/assets/img/user3-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
+                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../assets/adminlte/assets/img/user3-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">I would love to.</div> <!-- /.direct-chat-text -->
                                         </div> <!-- /.direct-chat-msg -->
                                     </div> <!-- /.direct-chat-messages--> <!-- Contacts are loaded here -->
                                     <div class="direct-chat-contacts">
                                         <ul class="contacts-list">
-                                            <li> <a href="#"> <img class="contacts-list-img" src="../../assets/adminlte/assets/img/user1-128x128.jpg" alt="User Avatar">
+                                            <li> <a href="#"> <img class="contacts-list-img" src="../assets/adminlte/assets/img/user1-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info"> <span class="contacts-list-name">
                                                             Count Dracula
                                                             <small class="contacts-list-date float-end">
@@ -134,7 +134,7 @@
                                                             How have you been? I was...
                                                         </span> </div> <!-- /.contacts-list-info -->
                                                 </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="../../assets/adminlte/assets/img/user7-128x128.jpg" alt="User Avatar">
+                                            <li> <a href="#"> <img class="contacts-list-img" src="../assets/adminlte/assets/img/user7-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info"> <span class="contacts-list-name">
                                                             Sarah Doe
                                                             <small class="contacts-list-date float-end">
@@ -143,7 +143,7 @@
                                                             I will be waiting for...
                                                         </span> </div> <!-- /.contacts-list-info -->
                                                 </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="../../assets/adminlte/assets/img/user3-128x128.jpg" alt="User Avatar">
+                                            <li> <a href="#"> <img class="contacts-list-img" src="../assets/adminlte/assets/img/user3-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info"> <span class="contacts-list-name">
                                                             Nadia Jolie
                                                             <small class="contacts-list-date float-end">
@@ -152,7 +152,7 @@
                                                             I'll call you back at...
                                                         </span> </div> <!-- /.contacts-list-info -->
                                                 </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="../../assets/adminlte/assets/img/user5-128x128.jpg" alt="User Avatar">
+                                            <li> <a href="#"> <img class="contacts-list-img" src="../assets/adminlte/assets/img/user5-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info"> <span class="contacts-list-name">
                                                             Nora S. Vans
                                                             <small class="contacts-list-date float-end">
@@ -161,7 +161,7 @@
                                                             Where is your new...
                                                         </span> </div> <!-- /.contacts-list-info -->
                                                 </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="../../assets/adminlte/assets/img/user6-128x128.jpg" alt="User Avatar">
+                                            <li> <a href="#"> <img class="contacts-list-img" src="../assets/adminlte/assets/img/user6-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info"> <span class="contacts-list-name">
                                                             John K.
                                                             <small class="contacts-list-date float-end">
@@ -170,7 +170,7 @@
                                                             Can I take a look at...
                                                         </span> </div> <!-- /.contacts-list-info -->
                                                 </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="../../assets/adminlte/assets/img/user8-128x128.jpg" alt="User Avatar">
+                                            <li> <a href="#"> <img class="contacts-list-img" src="../assets/adminlte/assets/img/user8-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info"> <span class="contacts-list-name">
                                                             Kenneth M.
                                                             <small class="contacts-list-date float-end">

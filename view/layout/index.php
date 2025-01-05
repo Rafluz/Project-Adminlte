@@ -1,33 +1,32 @@
 <?php
 session_start();
 
-// Cek apakah sesi pengguna sudah ada
+// Cek apakah user sudah login
 if (empty($_SESSION['user'])) {
-    echo "<center>
-    <font color='red'>Access Denied</font>
-    </center>";
-    exit; // Menghentikan eksekusi jika akses ditolak
+    // Redirect ke halaman login jika session kosong
+    header("Location: login.php"); // Ganti dengan path halaman login Anda
+    exit(); // Hentikan eksekusi script
 } else {
-    include "./header.php";
-    include "./sidebar.php";
+    include "./header.php"; // header
+    include "./sidebar.php"; // sidebar
 
-    // Mendapatkan parameter 'page' dan memfilter inputnya
-    if (isset($_GET['page'])) {
-        $page = htmlspecialchars($_GET['page']); // Menghindari serangan XSS
+    // Validasi input untuk parameter 'page'
+    $allowed_pages = ['tambah_menu']; // Halaman yang diizinkan
+    $page = isset($_GET['page']) ? $_GET['page'] : '';
+
+    if (!in_array($page, $allowed_pages) && $page !== '') {
+        // Jika halaman tidak valid, tampilkan pesan error
+        echo "<center><font color='red'>Halaman tidak ditemukan!</font></center>";
     } else {
-        $page = "";
-    }
+        // Load halaman sesuai dengan parameter 'page'
+        switch ($page) {
+            case "tambah_menu":
+                include __DIR__ . "/../page/form_tambah_menu/form_tambah_menu.php";
+                break;
 
-    // Switch case untuk menentukan halaman yang di-include
-    switch ($page) {
-        case "tambah_menu":
-            include_once "../page/form_tambah_menu/form_tambah_menu.php";
-            break;
-        case "tambah_post":
-            include_once "../../view/page/form_tambah_post/form_tambah_post.php";
-            break;
-        default:
-            include_once "./home.php";
+            default:
+                include "./home.php";
+        }
     }
 
     include "./footer.php";

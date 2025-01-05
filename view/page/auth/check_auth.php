@@ -1,22 +1,22 @@
 <?php
 session_start();
-include "connect.php";
+include "../auth/connect.php";
 
 $user = $_POST['user'];
 $pass = $_POST['pass'];
 
 //echo "$u $p";
 
-$qr = "SELECT * FROM tbuser WHERE username='".$user."' AND password='".$pass."'";
-$result = $db -> query($qr);                                                   
-$n = $result -> rowCount();
+$qr = "SELECT * FROM tbuser WHERE username='" . $user . "' AND password='" . $pass . "'";
+$result = $db->query($qr);
+$n = $result->rowCount();
 if ($n <> 0) {
     $_SESSION['user'] = $user;
     echo "<script>window.location = 
-    'http://localhost/blajar/view/layout/'</script>";
+    'http://localhost:8080/xampp/native/view/layout/'</script>";
 } else {
     echo "<script>window.location = 
-    'http://localhost/blajar/view/page/auth/login.php'</script>";
+    'http://localhost:8080/xampp/native/view/page/auth/login.php'</script>";
 }
 
-?> 
+?>

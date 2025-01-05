@@ -1,6 +1,6 @@
-<?php 
+<?php
 session_start();
-$_SESSION['user']='';
+$_SESSION['user'] = '';
 echo "<script>window.location = 
-    'http://localhost/blajar/view/page/auth/login.php'</script>";
+    'http://localhost:8080/xampp/native/view/page/auth/login.php'</script>";
 ?>
